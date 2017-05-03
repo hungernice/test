@@ -22,6 +22,7 @@ body {
 #nameHead label:hover{
 	background: #f9f9f9;
 }
+
 .attendInfo {
 	width:70px;
 	height:35px;
@@ -66,9 +67,13 @@ body {
 	font-weight:500;
 	font-size:16px;
 }
-.matchName{
+#namesCont .matchName{
 	background: #c10a1c;
 	color: #fff;
+}
+#namesCont .matchName:hover{
+	background: #e03143;
+	font-weight: 600;
 }
 .table-bordered thead tr th {
      border: 0; 
